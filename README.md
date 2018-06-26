@@ -23,3 +23,20 @@ yarn build
 ```
 
 ## Publish
+
+```bash
+npm login
+npm publish
+```
+
+## Config
+
+This project use rollup to bundle & output your component what you want.Rollup is realy easy with rich zoology. Love it.
+
+Configuration is easy. The Rollup config docmentation is here: [docs](https://rollupjs.org/guide/en).
+
+## TODO
+
+- [] docmentation for package.json props mean.
+- [] jest for test.
+- [] ci config
