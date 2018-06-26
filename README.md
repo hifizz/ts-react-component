@@ -1,6 +1,7 @@
 # TypeScript React Component
 
-Fastly start developping your react component with TypeScript and Rollup
+[中文文档](./README_zh_CN.md)
+Fastly start developping your react component with TypeScript and Rollup.
 
 ## Getting Started
 
