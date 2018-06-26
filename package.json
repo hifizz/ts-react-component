@@ -1,0 +1,54 @@
+{
+  "name": "ts-react-component",
+  "version": "0.0.1",
+  "description": "Fastly start developping your react component with TypeScript and Rollup",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/index.d.ts",
+  "styles": "lib/index.css",
+  "scripts": {
+    "build": "npm run lint && npm run clean:dist && NODE_ENV=production rollup -c",
+    "clean:dist": "rm -rf lib/*",
+    "watch": "rollup -cw",
+    "start": "parcel ./example/index.html",
+    "lint": "tslint --project tsconfig.json --project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hifizz/ts-react-component.git"
+  },
+  "author": {
+    "name": "Andre Goncalves",
+    "email": "andre@andregoncalves.com",
+    "url": "https://andregoncalves.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hifizz/ts-react-component/issues"
+  },
+  "homepage": "https://github.com/hifizz/ts-react-component",
+  "devDependencies": {
+    "@types/react": "latest",
+    "autoprefixer": "^8.0.0",
+    "parcel-bundler": "^1.9.3",
+    "postcss-clean": "latest",
+    "prettier": "^1.13.6",
+    "react": "16",
+    "rollup": "latest",
+    "rollup-plugin-babel-minify": "^5.0.0",
+    "rollup-plugin-babili": "^3.1.1",
+    "rollup-plugin-commonjs": "latest",
+    "rollup-plugin-css-only": "latest",
+    "rollup-plugin-livereload": "latest",
+    "rollup-plugin-node-resolve": "latest",
+    "rollup-plugin-postcss": "latest",
+    "rollup-plugin-replace": "latest",
+    "rollup-plugin-sass": "^0.8.0",
+    "rollup-plugin-serve": "latest",
+    "rollup-plugin-typescript2": "latest",
+    "rollup-watch": "latest",
+    "tslib": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  }
+}
