@@ -1,6 +1,6 @@
 # TypeScript React Component 脚手架
 
-急速的使用 TypeScript 开始开发你的 React 组件，轻松发布 npm 。
+极速的使用 TypeScript 开始开发你的 React 组件，轻松发布 npm。
 
 ## 开始
 
